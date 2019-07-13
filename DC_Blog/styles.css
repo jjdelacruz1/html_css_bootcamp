@@ -1,0 +1,66 @@
+header ul {
+  text-align: right;
+  display: inline;
+  font-family: sans-serif;
+  color: gray;
+  float: right;
+}
+
+header li {
+  display: inline;
+  padding: 8px;
+}
+
+button {
+  background: #759ee8;
+  color: white;
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: 150px;
+}
+span {
+  font-size: 37px;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: 400; 
+  text-align: center;
+}
+
+h3 {
+  font-size: 13px;
+  color: gray;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  text-align: justify;
+  width: 600px;
+}
+
+hr {
+  width: 600px;
+}
+
+
+main li {
+  display: inline;
+  text-align: left;
+  /* padding: 0; */
+  margin: auto;
+  color: gray;
+  font-family: sans-serif;
+}
+
+footer {
+  color: gray;
+  font-family: sans-serif;
+}
+
+footer p {
+  text-align: center;
+}
