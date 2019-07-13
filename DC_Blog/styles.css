@@ -46,6 +46,10 @@ hr {
   width: 600px;
 }
 
+main ul {
+  margin: 0px;
+  padding: inherit;
+}
 
 main li {
   display: inline;
