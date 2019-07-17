@@ -4,6 +4,7 @@ header ul {
   font-family: sans-serif;
   color: gray;
   float: right;
+  padding-right: 40px;
 }
 
 header li {
@@ -20,8 +21,18 @@ header li {
   padding-top: 250px;
 }
 
+.arrow {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
 .background {
-  background-image: url("img/atl.png")
+  background-image: url("img/atl.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
 }
 
 h1 {
@@ -30,17 +41,29 @@ h1 {
   font-family: sans-serif;
   color: white;
   font-weight: 400;
+  margin: 20px;
 }
 
+.logodiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logodiv img {
+  width: 200px;
+}
 .background h3 {
   text-align: center;
   font-family: sans-serif;
   font-weight: 200;
   color: lightgrey;
   padding-top: none;
+  padding-bottom: 85px;
 }
 
-a {
+header a {
   text-decoration: none;
   color: grey;
   font-size: small;
@@ -56,13 +79,13 @@ a {
 
 .images {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 4%;
 }
 
 .titles {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 4%;
   font-family: sans-serif;
 }
@@ -74,10 +97,14 @@ a {
 
 .words {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 4%;
   font-family: sans-serif;
-  
+}
+
+.words p {
+  margin: 50px;
+  text-align: center;
 }
 
 footer {
@@ -90,14 +117,22 @@ footer ul {
   padding-top: 20px;
   width: 100%;
   text-align: center;
-  color: lightgray;
+  padding-inline-start: 0px;
 }
 
 footer li {
   display: inline;
   font-family: sans-serif;
-  color: #d0cccc;
-  font-size: large;
+  color: white;
+  font-size: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }
 footer p {
   text-align: center;
