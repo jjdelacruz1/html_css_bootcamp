@@ -1,0 +1,45 @@
+nav {
+  height: 100vw;
+  width: 370px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: darkgrey;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  color: white;
+  margin: 5px;
+}
+
+main {
+  margin-left: 380px;
+  font-family: sans-serif;
+}
+
+#home {
+  font-size: x-large;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+div {
+  display: flex;
+}
