@@ -1,11 +1,36 @@
 nav {
+  
+}
+
+h3 {
+  color: gray;
+  font-weight: 400;
+}
+
+img {
+  width: 100px;
+  height: 40px;
+}
+
+h1 {
+  margin-top: auto;
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: xx-large;
+}
+
+input {
+  background: darkgrey;
+  border: 2px solid grey;
+}
+header {
   height: 100vw;
   width: 370px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: darkgrey;
+  background-color: rgb(87, 85, 85);
   overflow-x: hidden;
   padding-top: 20px;
   font-family: sans-serif;
@@ -26,6 +51,12 @@ ul {
   margin: 5px;
 }
 
+ul p {
+  padding-top: 500px;
+    padding-left: 36px;
+    color: white;
+}
+
 main {
   margin-left: 380px;
   font-family: sans-serif;
@@ -43,3 +74,21 @@ h2 {
 div {
   display: flex;
 }
+
+header p {
+  font-size: 12px;
+  text-align: center;
+  color: lightgray;
+  margin-top: 470px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.css_class::before {content:“/201C;“}
+.css_class::after {content:“/201D;“} 
